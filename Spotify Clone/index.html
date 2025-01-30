@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="OIP.jpg" alt="Spotify-logo">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="song-List">
+            <h1>Best of Dhanda Nyoliwala</h1>
+            <div class="songItemcontainer">
+                <div class="songItem" id="0">
+                    <img src="1.jpg" alt="Block">
+                    <span class="songName">Block</span>
+                    <span class="songlistplay"><span class="timestamp">03:30 <i class="fa-regular fa-circle-play songItemPlay" id="0"></i></span></span>
+                </div>
+                <div class="songItem" id="1">
+                    <img src="2.png" alt="Death Row">
+                    <span class="songName">Death Row</span>
+                    <span class="songlistplay"><span class="timestamp">03:30 <i class="fa-regular fa-circle-play songItemPlay" id="1"></i></span></span>
+                </div>
+                <div class="songItem" id="2">
+                    <img src="3.png" alt="Up To You">
+                    <span class="songName">Up To You</span>
+                    <span class="songlistplay"><span class="timestamp">03:30 <i class="fa-regular fa-circle-play songItemPlay" id="2"></i></span></span>
+                </div>
+                <div class="songItem" id="3">
+                    <img src="4.png" alt="Russian Bandana">
+                    <span class="songName">Russian Bandana</span>
+                    <span class="songlistplay"><span class="timestamp">03:40 <i class="fa-regular fa-circle-play songItemPlay" id="3"></i></span></span>
+                </div>
+                <div class="songItem" id="4">
+                    <img src="5.png" alt="Spellbound">
+                    <span class="songName">Spellbound</span>
+                    <span class="songlistplay"><span class="timestamp">03:55<i class="fa-regular fa-circle-play songItemPlay" id="4"></i></span></span>
+                </div>
+                <div class="songItem" id="5">
+                    <img src="6.png" alt="Knife Brows">
+                    <span class="songName">Knife Brows</span>
+                    <span class="songlistplay"><span class="timestamp">03:40 <i class="fa-regular fa-circle-play songItemPlay" id="5"></i></span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" class="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="giphy.gif" width="40px" id="gif">
+            <span id="masterSongName">Block - Dhanda Nyoliwala</span>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
